@@ -13,4 +13,4 @@
  ![alt simulation](https://github.com/2003SHINTO/10-day-internship/blob/main/day1/Screenshot%20from%202023-05-11%2010-35-35.png)
 using tinkercade
  .using arduino 
- [alt ]
+ ![alt simulation](https://github.com/2003SHINTO/10-day-internship/blob/main/day1/Screenshot%20from%202023-05-11%2011-31-41.png)
