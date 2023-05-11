@@ -5,4 +5,5 @@
 . created new circiut
 . using tinker caded Led Glow Circuit in bread board
 ![alt hii](https://github.com/2003SHINTO/10-day-internship/blob/main/day1/Screenshot%20from%202023-05-09%2012-36-53.png)
-![alt hii](https://www.tinkercad.com/things/a1ugtvcB2yg-ied-cel)
+ # led cel
+[tinker caded](https://www.tinkercad.com/things/a1ugtvcB2yg-ied-cel)
