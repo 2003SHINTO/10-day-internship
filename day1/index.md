@@ -37,3 +37,83 @@ void setup()
   pinMode(8,OUTPUT);
   pinMode(7,OUTPUT);
 }
+void loop()
+{
+  digitalWrite(13, LOW);
+  digitalWrite(12,LOW);
+  digitalWrite(11,LOW);
+  digitalWrite(10,LOW);
+  digitalWrite(9,LOW);
+  digitalWrite(8,LOW);
+  digitalWrite(7,HIGH);
+  delay(1000); // Wait for 1000 millisecond(s
+  digitalWrite(11,LOW);
+  digitalWrite(12,LOW);
+  digitalWrite(10,HIGH);
+  digitalWrite(13,HIGH);
+  digitalWrite(9,HIGH);
+  digitalWrite(8,HIGH);
+  digitalWrite(7,HIGH);
+  delay(1000);
+  digitalWrite(13,LOW);
+  digitalWrite(12,LOW);
+  digitalWrite(7,LOW);
+  digitalWrite(9,LOW);
+  digitalWrite(10,LOW);
+  digitalWrite(8,HIGH);
+  digitalWrite(11,HIGH);
+  delay(1000);
+  digitalWrite(13,LOW);
+  digitalWrite(12,LOW);
+  digitalWrite(11,LOW);
+  digitalWrite(10,LOW);
+  digitalWrite(7,LOW);
+  digitalWrite(9,HIGH);
+  digitalWrite(8,HIGH);
+  delay(1000);
+  digitalWrite(8,LOW);
+  digitalWrite(7,LOW);
+  digitalWrite(12,LOW);
+  digitalWrite(11,LOW);
+  digitalWrite(13,HIGH);
+  digitalWrite(9,HIGH);
+  digitalWrite(10,HIGH);
+  delay(1000);
+  digitalWrite(13,LOW);
+  digitalWrite(8,LOW);
+  digitalWrite(7,LOW);
+  digitalWrite(11,LOW);
+  digitalWrite(10,LOW);
+  digitalWrite(9,HIGH);
+  digitalWrite(12,HIGH);
+  delay(1000);
+  digitalWrite(13,LOW);
+  digitalWrite(8,LOW);
+  digitalWrite(7,LOW);
+  digitalWrite(11,LOW);
+  digitalWrite(10,LOW);
+  digitalWrite(9,LOW);
+  digitalWrite(12,HIGH);
+  delay(1000);
+  digitalWrite(13,LOW);
+  digitalWrite(12,LOW);
+  digitalWrite(11,LOW);
+  digitalWrite(10,HIGH);
+  digitalWrite(9,HIGH);
+  digitalWrite(8,HIGH);
+  digitalWrite(7,HIGH);
+  delay(1000);
+  digitalWrite(13,LOW);
+  digitalWrite(12,LOW);
+  digitalWrite(11,LOW);
+  digitalWrite(10,LOW);
+  digitalWrite(9,LOW);
+  digitalWrite(8,LOW);
+  digitalWrite(7,LOW);
+  delay(1000);
+  digitalWrite(10,HIGH);
+  digitalWrite(9,HIGH);
+  delay(1000);
+  
+  delay(1000); // Wait for 1000 millisecond(s)
+}
