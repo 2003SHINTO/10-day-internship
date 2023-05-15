@@ -25,3 +25,15 @@ using tinkercade
      ![ALT](https://github.com/2003SHINTO/10-day-internship/commit/f84cbd8df8bcb581e50f3194de1077cedf1184bc)
  7 _Sengmet
  ![ait](https://github.com/2003SHINTO/10-day-internship/blob/main/day1/Screenshot%20from%202023-05-15%2014-40-59.png)
+7_segament code// C++ code
+//
+void setup()
+{
+  pinMode(13, OUTPUT);
+  pinMode(12,OUTPUT);
+  pinMode(11,OUTPUT);
+  pinMode(10,OUTPUT);
+  pinMode(9,OUTPUT);
+  pinMode(8,OUTPUT);
+  pinMode(7,OUTPUT);
+}
