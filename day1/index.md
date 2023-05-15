@@ -23,3 +23,5 @@ using tinkercade
  ![alt](https://github.com/2003SHINTO/10-day-internship/blob/main/day1/Screenshot%20from%202023-05-15%2010-48-56.png)
      .using POT 
      ![ALT](https://github.com/2003SHINTO/10-day-internship/commit/f84cbd8df8bcb581e50f3194de1077cedf1184bc)
+ 7 _Sengmet
+ ![ait](https://github.com/2003SHINTO/10-day-internship/blob/main/day1/Screenshot%20from%202023-05-15%2014-40-59.png)
