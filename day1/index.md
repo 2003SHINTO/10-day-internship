@@ -25,7 +25,9 @@ using tinkercade
      ![ALT](https://github.com/2003SHINTO/10-day-internship/commit/f84cbd8df8bcb581e50f3194de1077cedf1184bc)
  7 _Sengmet
  ![ait](https://github.com/2003SHINTO/10-day-internship/blob/main/day1/Screenshot%20from%202023-05-15%2014-40-59.png)
-7_segament code// C++ code
+7_segament
+```
+// code// C++ code
 //
 void setup()
 {
@@ -117,3 +119,4 @@ void loop()
   
   delay(1000); // Wait for 1000 millisecond(s)
 }
+```
