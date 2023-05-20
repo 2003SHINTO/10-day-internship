@@ -99,7 +99,7 @@ void loop()
   delay(1000);
   digitalWrite(13,LOW);
   digitalWrite(12,LOW);
-  digitalWrite(11,LOW);
+  digitalWrite(11,LOW);https://github.com/2003SHINTO/10-day-internship/blob/main/day1/Screenshot%20from%202023-05-20%2012-06-07.png
   digitalWrite(10,HIGH);
   digitalWrite(9,HIGH);
   digitalWrite(8,HIGH);
@@ -120,10 +120,10 @@ void loop()
   delay(1000); // Wait for 1000 millisecond(s)
 }
 ```
-#DAY10 using tinkercade
+# DAY10 using tinkercade
 QUICK BUZZER
 quick buzzer code
-...
+```
 const int buttonPin0 = 2;     // the number of the pushbutton pin
 const int ledPin0 =  13;
 const int buttonPin1 = 4;     // the number of the pushbutton pin
@@ -181,5 +181,6 @@ void loop()
      digitalWrite(ledPin2, LOW);
   }
 }
-
 ```
+
+![alt mkl](
