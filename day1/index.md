@@ -131,7 +131,7 @@ const int ledPin1 =  12;
 const int buttonPin2 = 7;     // the number of the pushbutton pin
 const int ledPin2 =  8; // the number of the LED pin
 
-// variables will change:
+// variables will change:https://github.com/2003SHINTO/10-day-internship/blob/main/day1/assignment.md
 int buttonState0 = 0;         // variable for reading the pushbutton status
 int buttonState1 = 0; 
 int buttonState2 = 0; 
