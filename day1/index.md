@@ -91,7 +91,7 @@ void loop()
   delay(1000);
   digitalWrite(13,LOW);
   digitalWrite(8,LOW);
-  digitalWrite(7,LOW);
+  digitalWritte(7,LOW);
   digitalWrite(11,LOW);
   digitalWrite(10,LOW);
   digitalWrite(9,LOW);
@@ -119,4 +119,67 @@ void loop()
   
   delay(1000); // Wait for 1000 millisecond(s)
 }
+```
+#DAY10 using tinkercade
+QUICK BUZZER
+quick buzzer code
+...
+const int buttonPin0 = 2;     // the number of the pushbutton pin
+const int ledPin0 =  13;
+const int buttonPin1 = 4;     // the number of the pushbutton pin
+const int ledPin1 =  12;
+const int buttonPin2 = 7;     // the number of the pushbutton pin
+const int ledPin2 =  8; // the number of the LED pin
+
+// variables will change:
+int buttonState0 = 0;         // variable for reading the pushbutton status
+int buttonState1 = 0; 
+int buttonState2 = 0; 
+
+void setup()
+{
+  // initialize the LED pin as an output:
+  pinMode(ledPin0, OUTPUT);
+  // initialize the pushbutton pin as an input:
+  pinMode(buttonPin0, INPUT);
+  // initialize the LED pin as an output:
+  pinMode(ledPin1, OUTPUT);
+  // initialize the pushbutton pin as an input:
+  pinMode(buttonPin1, INPUT);
+  // initialize the LED pin as an output:
+  pinMode(ledPin2, OUTPUT);
+  // initialize the pushbutton pin as an input:
+  pinMode(buttonPin2, INPUT);
+}
+
+void loop()
+{
+  // read the state of the pushbutton value:
+  buttonState0 = digitalRead(buttonPin0);
+   buttonState1 = digitalRead(buttonPin1);
+   buttonState2 = digitalRead(buttonPin2);
+
+  // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
+  if (buttonState0 == HIGH)
+  {
+    // turn LED on:
+    digitalWrite(ledPin0, HIGH);
+  }
+  else if (buttonState1 == HIGH)
+  { 
+   digitalWrite(ledPin1, HIGH); 
+  }
+  else if (buttonState2 == HIGH)
+  { 
+   digitalWrite(ledPin2, HIGH); 
+  } 
+  else
+  {
+    // turn LED off:
+    digitalWrite(ledPin0, LOW);
+     digitalWrite(ledPin1, LOW);
+     digitalWrite(ledPin2, LOW);
+  }
+}
+
 ```
