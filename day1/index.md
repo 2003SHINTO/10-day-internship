@@ -139,8 +139,7 @@ int buttonState2 = 0;
 void setup()
 {
   // initialize the LED pin as an output:
-  pinMode(ledPin0, OUTPUT);
-  // initialize the pushbutton pin as an input:
+  pinMode(ledPin0, OUTPUT);  // initialize the pushbutton pin as an input:
   pinMode(buttonPin0, INPUT);
   // initialize the LED pin as an output:
   pinMode(ledPin1, OUTPUT);
@@ -183,4 +182,4 @@ void loop()
 }
 ```
 
-![alt mkl](
+![alt mkl](https://github.com/2003SHINTO/10-day-internship/blob/main/day1/Screenshot%20from%202023-05-20%2012-06-07.png)
