@@ -183,3 +183,4 @@ void loop()
 ```
 
 ![alt mkl](https://github.com/2003SHINTO/10-day-internship/blob/main/day1/Screenshot%20from%202023-05-20%2012-06-07.png)
+![tinker this](https://www.tinkercad.com/things/gK7JmK2f9I3-quick-buzzer/editel)
